@@ -1,0 +1,297 @@
+body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+    color: #222;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*header8*/
+.headerbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 36px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #111;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks li {
+    margin: 0 20px;
+}
+
+.navauth a {
+    margin-left: 20px;
+}
+
+/* section1 */
+.herosections {
+    text-align: center;
+    padding: 100px 24px;
+    background: linear-gradient(180deg, #ffffff, #f4f7f7);
+}
+
+.herosections h1 {
+    font-size: 56px;
+    color: #111;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.herosections p {
+    font-size: 20px;
+    color: #555;
+    max-width: 680px;
+    margin: 0 auto 32px;
+}
+
+/* Buttons */
+.buttonprimary {
+    background-color: #111;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.buttonprimary:hover {
+    background-color: #333;
+}
+
+/* 2sction */
+.partnerssection {
+    background-color: #0a1f1f; 
+    color: #e8e8e8;
+    padding: 70px 24px;
+    text-align: center;
+}
+
+.partnerssection h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.partnerslogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-bottom: 40px;
+}
+
+.partnername {
+    font-size: 16px;
+    font-weight: 600;
+    color: #b9c0c0;
+    margin: 8px 16px;
+}
+
+.partnerslink {
+    display: inline-block;
+    border: 1px solid #444;
+    border-radius: 40px;
+    padding: 12px 26px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    transition: all 0.2s ease;
+}
+
+.partnerslink:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.videossection {
+    padding: 70px 36px;
+    background-color: #ffffff;
+}
+
+.videossection h2 {
+    font-size: 38px;
+    color: #111;
+    margin-bottom: 36px;
+}
+
+.videosgrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.videocards {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    width: 320px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.videocards:hover {
+    transform: translateY(-4px);
+}
+
+.videoplaceholder {
+    height: 160px;
+    background-color: #f0f0f0;
+}
+
+.videocards h3 {
+    font-size: 18px;
+    padding: 14px 16px 6px;
+    margin: 0;
+    color: #111;
+}
+
+.videocards .videometa {
+    font-size: 12px;
+    color: #777;
+    padding: 0 16px 16px;
+}
+
+
+
+.footerdiv {
+    background-color: #ffffff;
+    padding: 60px 40px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footergrid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footercolumn, .footercolumnmain {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlogo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 18px;
+}
+
+.footerbuttondark, .footerbuttonlight {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.footerbuttondark {
+    background-color: #111;
+    color: #fff;
+}
+
+.footerbuttondark:hover {
+    background-color: #333;
+}
+
+.footerbuttonlight {
+    background-color: #f7f7f7;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.footerbuttonlight:hover {
+    background-color: #eee;
+}
+
+.footercolumn h3 {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.footercolumn a {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footercolumn a:hover {
+    color: #000;
+}
+
+/*disclaimer */
+.disclaimersection {
+    background-color: #f7f7f7;
+    padding: 24px 40px;
+    border-top: 1px solid #e0e0e0;
+    color: #555;
+    font-size: 13px;
+}
+
+.disclaimertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    color: #333;
+    flex-wrap: wrap;
+}
+
+.disclaimerlinks a,
+.disclaimerlinks span {
+    margin-right: 16px;
+    color: #222;
+    font-weight: 600;
+}
+
+.disclaimersocials a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.disclaimersocials a:hover {
+    background-color: #ddd;
+}
+
+.disclaimertext p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
